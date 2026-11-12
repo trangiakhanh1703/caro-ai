@@ -78,8 +78,8 @@ def export_csv(
         writer.writeheader()
         writer.writerows(moves)
 
-    print(f"Đã xuất {len(games)} ván ra {games_file}")
-    print(f"Đã xuất {len(moves)} nước đi ra {moves_file}")
+    print(f"Exported {len(games)} games to {games_file}")
+    print(f"Exported {len(moves)} moves to {moves_file}")
 
 
 if __name__ == "__main__":
